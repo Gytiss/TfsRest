@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace ConsoleApp1
 {
@@ -41,6 +43,8 @@ namespace ConsoleApp1
                         Console.WriteLine(responseBody);
                         Console.ReadLine();
                     }
+
+                    ////////////////
                 }
             }
             catch (Exception ex)
